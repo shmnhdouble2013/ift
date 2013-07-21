@@ -10,12 +10,17 @@ by 鬼道（[luics](luics.xu@gmail.com)）
 npm install if-sync
 ```
 
-## 使用
+## 初始化
 
-请参考 demo/if.js
+
+
+## 文档生成
+
+请参考 demo/demo/data/if-config.js
 
 ```
-cd demo
-node if.js
-cat if.md
+cd demo/demo/data
+node if-config.js
+cd ../../doc
+cat api.md
 ```

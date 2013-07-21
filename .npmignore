@@ -4,3 +4,5 @@
 .svn*
 Makefile
 docs/
+demo/demo/
+demo/doc/
