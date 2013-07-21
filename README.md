@@ -12,11 +12,14 @@ npm install if-sync
 
 ## 初始化
 
-
+```
+cd demo
+node if-init.js
+```
 
 ## 文档生成
 
-请参考 demo/demo/data/if-config.js
+文档配置请参考 demo/demo/data/if-config.js
 
 ```
 cd demo/demo/data
