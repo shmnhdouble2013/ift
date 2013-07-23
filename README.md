@@ -10,20 +10,9 @@ by 鬼道（[luics](luics.xu@gmail.com)）
 npm install if-sync
 ```
 
-## 初始化
+## 使用
 
-```
-cd demo
-node if-init.js
-```
+请配合 tap 使用，不再提供独立的 demo
 
-## 文档生成
 
-文档配置请参考 demo/demo/data/if-config.js
 
-```
-cd demo/demo/data
-node if-config.js
-cd ../../doc
-cat api.md
-```
