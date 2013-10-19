@@ -1,6 +1,6 @@
 {
     "name": "if-sync",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "interface sync tool",
     "author": {
         "name": "luics",
@@ -15,6 +15,9 @@
         "url": "http://github.com/luics/if-sync/issues"
     },
     "main": "./lib/if-sync",
+    "bin": {
+        "ift": "./bin/ift"
+    },
     "engines": {
         "node": ">= 0.8.0"
     },
