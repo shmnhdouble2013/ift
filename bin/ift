@@ -5,7 +5,7 @@ var program = require('commander');
 var argv = require('optimist').argv;
 
 program
-    .version('0.1.3')
+    .version('0.1.4')
     .usage('[options]')
     .description('if - 接口工具')
     .option('-i, --init [projectRoot]', '接口环境初始化')

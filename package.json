@@ -1,6 +1,6 @@
 {
     "name": "ift",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "InterFace Toolkit",
     "author": {
         "name": "luics",
@@ -9,10 +9,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/luics/if-sync.git"
+        "url": "https://github.com/luics/ift.git"
     },
     "bugs": {
-        "url": "http://github.com/luics/if-sync/issues"
+        "url": "http://github.com/luics/ift/issues"
     },
     "main": "./lib/ift",
     "bin": {
@@ -29,6 +29,7 @@
     ],
     "keywords": [
         "if",
+        "ift",
         "interface"
     ],
     "dependencies": {
