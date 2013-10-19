@@ -1,8 +1,8 @@
 # ift
 
-> Interface Toolkit, 接口同步工具
+InterFace Toolkit 接口工具集
 
-by 鬼道（[luics](luics.xu@gmail.com)）
+by 鬼道（[luics](http://luics.github.io)）
 
 ## 安装
 
