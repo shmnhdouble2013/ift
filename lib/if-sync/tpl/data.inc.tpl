@@ -6,6 +6,8 @@
 
 `{#requestUrl}`
 
+{#otherUrl}
+
 ```javascript
 {#request}
 ```
@@ -23,3 +25,5 @@
 ```javascript
 {#responseError}
 ```
+
+{#template}

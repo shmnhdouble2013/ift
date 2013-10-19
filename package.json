@@ -1,6 +1,6 @@
 {
     "name": "if-sync",
-    "version": "0.0.8",
+    "version": "0.1.0",
     "description": "interface sync tool",
     "author": {
         "name": "luics",
@@ -14,7 +14,7 @@
     "bugs": {
         "url": "http://github.com/luics/if-sync/issues"
     },
-    "main": "./lib",
+    "main": "./lib/if-sync",
     "engines": {
         "node": ">= 0.8.0"
     },
@@ -29,5 +29,9 @@
         "if",
         "interface"
     ],
+    "dependencies": {
+        "optimist": "*",
+        "commander": "1.3.x"
+    },
     "readmeFilename": "README.md"
 }

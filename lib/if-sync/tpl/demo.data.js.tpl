@@ -16,7 +16,20 @@ if (typeof exports === 'undefined') {
 
 exports.config = {
     "name": "这是接口名",
-    "desc": "这是接口的详细描述"
+    "desc": "这是接口的详细描述",
+    // 线上地址
+    "url": "http://example.com/demo",
+    // 日常地址
+    "urlDaily": "http://daily.example.net/demo",
+    // 预发地址
+    "urlPrepub": "http://example.com/demo",
+    // 支持的 Method 集合
+    "method": ['GET', 'POST'],
+    // 响应与模板的映射关系
+    "template":{
+        "response": "tpl1.php",
+        "responseError": "tpl2.php"
+    }
 };
 
 exports.request = {
@@ -36,6 +49,10 @@ exports.response = {
             {// 单条记录
                 "id": 1000,
                 "name": "name-123"
+            },
+            {// 单条记录
+             "id": 1000,
+             "name": "name-123"
             }
         ]
     }
