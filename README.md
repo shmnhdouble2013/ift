@@ -1,20 +1,20 @@
-# if-sync
+# ift
 
-> Interface Sync, 接口同步工具
+> Interface Toolkit, 接口同步工具
 
 by 鬼道（[luics](luics.xu@gmail.com)）
 
 ## 安装
 
 ```
-npm install -g if-sync
+npm install -g ift
 ```
 
-MAC 用户请使用`sudo npm install -g if-sync`
-
-> 请使用 `ift -h` 查看所有命令
+MAC 用户请使用`sudo npm install -g ift`
 
 ## 1. 初始化
+
+> 请使用 `ift -h` 查看所有命令
 
 请在项目根目录下运行
 

@@ -1,7 +1,7 @@
 {
-    "name": "if-sync",
-    "version": "0.1.1",
-    "description": "interface sync tool",
+    "name": "ift",
+    "version": "0.1.2",
+    "description": "InterFace Toolkit",
     "author": {
         "name": "luics",
         "email": "luics.xu@gmail.com",
@@ -14,7 +14,7 @@
     "bugs": {
         "url": "http://github.com/luics/if-sync/issues"
     },
-    "main": "./lib/if-sync",
+    "main": "./lib/ift",
     "bin": {
         "ift": "./bin/ift"
     },
@@ -28,7 +28,6 @@
         }
     ],
     "keywords": [
-        "sync",
         "if",
         "interface"
     ],

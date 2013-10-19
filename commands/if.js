@@ -1,5 +1,5 @@
 // 依赖模块
-var ifm = require('../lib/if-sync');
+var ift = require('../lib/ift');
 var path = require('path');
 var fs = require('fs');
 
@@ -18,7 +18,7 @@ module.exports = {
         // 接口初始化
         if (argv.init || argv.i) {
             var root = argv.init || argv.i;
-            ifm.ifInit({
+            ift.ifInit({
                 root: typeof(root) === 'string' ? root : cwd
             });
         }
@@ -37,7 +37,7 @@ module.exports = {
             opt.dataDir = dataDir;
             opt.savePath = path.join(dataDir, opt.savePath);
 
-            ifm.ifSync(opt);
+            ift.ifSync(opt);
         }
         // 接口服务器
         else if (argv.server || argv.e) {
@@ -45,7 +45,7 @@ module.exports = {
             root = typeof(root) === 'string' ? root : path.join(cwd, 'demo/data');
             var port = parseInt(argv.port || argv.p || 9999, 10);
 
-            ifm.ifServer({
+            ift.ifServer({
                 root: root,
                 port: port
             });
