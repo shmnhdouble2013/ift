@@ -121,3 +121,9 @@ ift --server --port 9999
 ```
 
 浏览器中访问 `http://localhost:9999/demo.js`，`demo.js` 可替换为合适的值
+
+## 4. 接口校验
+
+```javascript
+require('ift').ifCheck({data-format:1}, {data:1});
+```
