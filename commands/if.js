@@ -28,7 +28,7 @@ module.exports = {
             ifConfigPath = typeof(ifConfigPath) === 'string' ? ifConfigPath : path.join(cwd, DEF_OPT.configFile);
 
             if (!fs.existsSync(ifConfigPath)) {
-                console.error('未找到配置文件：' + ifConfigPath);
+                //console.error('未找到配置文件：' + ifConfigPath);
                 return;
             }
 

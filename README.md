@@ -127,3 +127,18 @@ ift --server --port 9999
 ```javascript
 require('ift').ifCheck({data-format:1}, {data:1});
 ```
+
+返回
+
+```javascript
+{
+    "pass": 1, // 1-校验通过 0-未通过
+    "defined": 4, // 校验的字段数
+    "undefined": 0, // 需要定义却未定义的字段数
+    "mismatch": 0, // 格式不匹配的字段数
+    "stack": [ // 校验堆栈，一般用不着
+        "{root}"
+    ],
+    "log": [] // 出错日志
+    }
+```
