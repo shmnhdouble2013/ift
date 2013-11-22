@@ -140,5 +140,5 @@ require('ift').ifCheck({data-format:1}, {data:1});
         "{root}"
     ],
     "log": [] // 出错日志
-    }
+}
 ```
