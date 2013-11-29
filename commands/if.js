@@ -50,5 +50,17 @@ module.exports = {
                 port: port
             });
         }
+        // 生成java
+        else if (argv.jar || argv.e) {
+            var root = argv.jar || argv.e;
+
+            root = typeof(root) === 'string' ? root : path.join( , 'demo/data');
+            var port = parseInt(argv.port || argv.p || 9999, 10);
+
+            ift.ifJar({
+                root: root,
+                port: port
+            });
+        }
     }
 }
