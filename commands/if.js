@@ -51,16 +51,23 @@ module.exports = {
             });
         }
         // 生成java
-        else if (argv.jar || argv.e) {
-            var root = argv.jar || argv.e;
+        else if (argv.jar || argv.j) {
+            var root = argv.jar || argv.j;
 
-            root = typeof(root) === 'string' ? root : path.join( , 'demo/data');
-            var port = parseInt(argv.port || argv.p || 9999, 10);
+            root = typeof(root) === 'string' ? root : path.join(cwd, DEF_OPT.configFile);
 
-            ift.ifJar({
-                root: root,
-                port: port
-            });
+            if (!fs.existsSync(root)) {
+                console.error('未找到js目录：' + root);
+                return;
+            }
+
+            var opt = JSON.parse(fs.readFileSync(root, DEF_OPT.encoding)),
+                dataDir = path.dirname(root);
+
+            opt.dataDir = dataDir;
+            opt.savePath = path.join(dataDir, opt.saveVoPath);
+
+            ift.ifJar(opt);
         }
     }
 }
